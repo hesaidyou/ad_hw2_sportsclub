@@ -37,7 +37,7 @@ public class coach_fragment extends Fragment {
     }
 
     private void initCoaches() {
-        for(int i=0;i<2;i++){
+        for(int i=0;i<1;i++){
             Coach coach1 = new Coach("Tom",R.drawable.touxiang);
             coachList.add(coach1);
             Coach coach2 = new Coach("Sam",R.drawable.touxiang1);
